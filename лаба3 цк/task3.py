@@ -55,4 +55,4 @@ main_str = """
 dict_result = calculate_frequency(count_letters(main_str))
 
 for key, value in dict_result.items():
-    print(f'{key}: {value:.2f}')
+    print(f'{key}: {value:.2f}') #не штрафуйте на баллы за опоздание, пожалуйста, у меня интернет выбило на два часа:(
