@@ -11,7 +11,7 @@ def count_letters(m_str):
 def calculate_frequency(m_dict):
     common = sum(m_dict.values())
     for key, val in m_dict.items():
-        frequency = round((val / common), 2)
+        frequency = val / common
         m_dict[key] = frequency
     return m_dict
 
